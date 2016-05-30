@@ -1,0 +1,78 @@
+/*reset*/
+html, body, div, span, iframe,h1, h2, h3, h4, h5, h6, p, a dl, dt, dd, ol, ul, li
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: "Microsoft YaHei", "宋体", simsun, tahoma, arial, 宋体, sans-serif;
+    font-size: 12px;
+}
+body {
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+q:before, q:after {
+    content: '';
+    content: none;
+}
+a{
+    color: pointer;
+    color: #333;
+}
+a:hover{
+    text-decoration: none
+}
+
+/*common*/
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix{
+    display:block;
+}
+.clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+.m-main{
+    width: 100%;
+    background-color:#f8f8f8 ;
+}
+.free-exchange{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top:20px ;
+    padding-bottom: 28px;
+}
+
+/*footer*/
+.footer{
+    width: 100%;
+    border-top:2px solid #f16363;
+    height: 150px;
+    background-color:#f8f8f8 ;
+}
+.footer .container{
+    width: 943px;
+    margin: 0 auto;
+}
+.footer .container .foot-one{
+    margin-top: 20px;
+    height: 34px;
+    background: url("../images/common/foot_01.png") no-repeat center top;
+}
+.footer .container .foot-two{
+    margin-top: 8px;
+    height: 42px;
+    background: url("../images/common/foot_02.png") no-repeat center top;
+}
